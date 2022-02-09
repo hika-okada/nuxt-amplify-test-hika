@@ -9,7 +9,7 @@ import styles from "../styles/Home.module.css";
 
 Amplify.configure({ ...awsExports, ssr: true });
 
-async function getServerSideProps({ req }) {
+export async function getServerSideProps({ req }) {
   const SSR = withSSRContext({ req });
   const response = await SSR.API.graphql({ query: listTodos });
 
