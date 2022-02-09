@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nextamplified",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\okada\\Documents\\nuxt-amplify\\nuxt-amplify-test-hika\\next-amplified\\amplify\\backend\\api\\nextamplified\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-02-16T14:35:26.349Z",
+      "keyDescription": ""
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authnextamplified53271044"
+      }
+    ]
+  }
+}
